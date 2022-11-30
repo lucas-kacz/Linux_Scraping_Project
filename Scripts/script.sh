@@ -32,4 +32,7 @@ recup_prix
 
 time=$( date '+%F %H:%M:%S')
 
-curl --data chat_id="-1001548798038" --data-urlencode "text=Bonjour, le prix de l'Atom est de $prix et nous sommes actuellement le $time " "https://api.telegram.org/bot5666318311:AAE-c5TIz6oxQSBCT9a78Ypb2dWPXN767yg/sendMessage?parse_mode"
+your_chat_id="INPUT YOUR CHAT ID"
+your_token="INPUT YOUR TOKEN"
+
+curl --data chat_id=$your_chat_id --data-urlencode "text=Bonjour, le prix de l'Atom est de $prix et nous sommes actuellement le $time " "https://api.telegram.org/bot$your_token/sendMessage?parse_mode"
