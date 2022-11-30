@@ -23,6 +23,6 @@ This script deletes the mean.txt and value.txt files once a day in order to comp
 
 ## Example
 
-![Here is an example of the ouptut of script.sh](https://imgur.com/3Qv6pKu)
+![](https://imgur.com/3Qv6pKu)
 
 
