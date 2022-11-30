@@ -9,7 +9,7 @@ This project is composed of several scripts :
 
 This script scraps the data from this [Coingecko Webpage](https://www.coingecko.com/fr/pi%C3%A8ces/cosmos-hub). We then select only the price part that interests us and send this value into a .txt file. Whenever this script is executed, it sends a Telegram notification every minute telling us the price and the date.
 
-## tats.sh
+## stats.sh
 
 This script calculates the min, max and percetange change of the values sent to the .txt file by our scrapping script. This script is executed every 15 minutes.
 
