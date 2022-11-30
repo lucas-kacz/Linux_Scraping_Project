@@ -21,8 +21,6 @@ This script sends a .txt file containing all the values scrapped every day. It i
 
 This script deletes the mean.txt and value.txt files once a day in order to compute new values for each day.
 
-## Example
 
-![](https://imgur.com/3Qv6pKu)
 
 
